@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Siddhardha — Portfolio Site
 
 A single-page portfolio built with plain HTML/CSS/JS — no build step, no framework,
@@ -50,6 +49,3 @@ The contact form currently opens the visitor's email app with a pre-filled messa
 without the visitor's email client popping up, sign up at a form-backend service
 like Formspree, point the form at your new endpoint, and swap the JS submit handler
 for a normal `fetch()` POST. This is optional — the mailto version works out of the box.
-=======
-# portfolio
->>>>>>> 472a1db4a601422624021dd0f1117dde008e8692
