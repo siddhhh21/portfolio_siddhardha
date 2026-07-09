@@ -1,0 +1,503 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Siddhardha Korada — Software Developer</title>
+    <meta
+      name="description"
+      content="Portfolio of Venkata Sai Siddhardha Korada — BTech 3rd Year, St Martin's Engineering College. Full-stack developer & problem solver."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Playfair+Display:ital@1&family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- ================= NAVBAR ================= -->
+    <header class="nav-wrap">
+      <nav class="nav container">
+        <a href="#home" class="logo">Siddhardha<span class="dot">.</span></a>
+
+        <button
+          class="nav-toggle"
+          id="navToggle"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+        >
+          <span></span><span></span><span></span>
+        </button>
+
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Project</a></li>
+          <li><a href="#blog">Blog</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <a class="btn btn-ghost" href="assets/resume.pdf" download>
+            Resume
+          </a>
+          <a class="btn btn-solid" href="#contact">
+            Contact
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
+              <path
+                d="M5 12H19M19 12L13 6M19 12L13 18"
+                stroke="currentColor"
+                stroke-width="2.4"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="home">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">HEY, I AM SIDDHARDHA A</p>
+            <h1 class="hero-title">
+              FULL&#8209;STACK<br />
+              <em>Developer</em>
+            </h1>
+            <p class="hero-sub">
+              BTech 3rd year student at St Martin's Engineering College,
+              building clean, functional web products &mdash; from front-end
+              interfaces to back-end logic. I like turning ideas into things
+              that actually run.
+            </p>
+            <div class="hero-cta">
+              <a href="#projects" class="btn btn-solid btn-lg">
+                See My Work
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M5 12H19M19 12L13 6M19 12L13 18"
+                    stroke="currentColor"
+                    stroke-width="2.4"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+              <a href="assets/resume.pdf" download class="btn btn-ghost btn-lg"
+                >Download Resume</a
+              >
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="hero-photo-frame">
+              <img
+                class="hero-photo"
+                src="assets/profile.png"
+                alt="Venkata Sai Siddhardha Korada"
+              />
+            </div>
+            <div class="orbit-ring" aria-hidden="true"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section class="about" id="about">
+      <div class="container about-grid">
+        <div class="about-copy">
+          <p class="section-eyebrow">01 — About</p>
+          <h2 class="section-title">
+            Student by classroom,<br /><em>developer</em> by choice.
+          </h2>
+          <p class="about-text">
+            I'm Venkata Sai Siddhardha Korada, a 3rd year BTech student at St
+            Martin's Engineering College. I spend most of my time outside class
+            learning by building &mdash; web apps, small tools, and experiments
+            that help me understand how real software is put together. I care
+            about clean code, clear UI, and shipping things that work.
+          </p>
+          <div class="about-stats">
+            <div>
+              <span>3rd</span>
+              <p>Year, BTech</p>
+            </div>
+            <div>
+              <span>10+</span>
+              <p>Projects built</p>
+            </div>
+            <div>
+              <span>5+</span>
+              <p>Tech stacks explored</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-side">
+          <div class="skills-card">
+            <p class="skills-label">What I work with</p>
+            <ul class="skill-chips">
+              <li>HTML/CSS</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>Node.js</li>
+              <li>Python</li>
+              <li>MySQL</li>
+              <li>Git/GitHub</li>
+              <li>C++ (DSA)</li>
+            </ul>
+          </div>
+
+          <div class="about-code-card">
+            <div class="code-dots"><span></span><span></span><span></span></div>
+            <pre><code>const dev = {
+  name: <span class="tok-str">"Siddhardha"</span>,
+  year: <span class="tok-num">3</span>,
+  branch: <span class="tok-str">"BTech"</span>,
+  stack: [<span class="tok-str">"JS"</span>, <span class="tok-str">"React"</span>, <span class="tok-str">"Node"</span>],
+  status: <span class="tok-str">"building..."</span>
+};</code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+    <section class="projects" id="projects">
+      <div class="container">
+        <p class="section-eyebrow">02 — Selected Work</p>
+        <h2 class="section-title">Projects worth a closer look.</h2>
+        <p class="section-sub">
+          Move your cursor across the strip, then hover a card to bring it
+          forward.
+        </p>
+      </div>
+
+      <div class="gallery-wrap" id="galleryWrap">
+        <div class="gallery-track" id="galleryTrack">
+          <!-- <article class="gallery-card" style="--rot:-7deg; --ty:10px;" tabindex="0">
+        <div class="gallery-thumb">
+          <img src="assets/projects/campus-connect.jpg" alt="Campus Connect landing page placeholder" />
+          <span class="gallery-tag">↗ Web App</span>
+          <span class="gallery-name">Campus Connect</span>
+        </div>
+        <div class="gallery-detail">
+          <h3>Campus Connect</h3>
+          <p>A platform for students to share notes, event updates and club activities
+            across departments, with role-based logins for students and coordinators.</p>
+          <ul class="tech-list">
+            <li>React</li><li>Node.js</li><li>MongoDB</li>
+          </ul>
+          <div class="card-links">
+            <a href="#" aria-label="Live demo">Live ↗</a>
+            <a href="#" aria-label="Source code">Code ↗</a>
+          </div>
+        </div>
+      </article> -->
+
+          <article class="gallery-card" style="--rot:4deg; --ty:-18px;" tabindex="0">
+        <div class="gallery-thumb">
+          <img src="assets/projects/dsa-sheet.png" alt="DSA Sheet landing page placeholder" />
+          <span class="gallery-tag">↗ Dashboard</span>
+          <span class="gallery-name">DSA Sheet</span>
+        </div>
+        <div class="gallery-detail">
+          <h3>DSA Sheet</h3>
+          <p>A minimal, focused tracker for essential data structures and algorithms. Track progress. Build consistency. Land your dream job.</p>
+          <ul class="tech-list">
+            <li>JavaScript</li><li>Chart.js</li><li>LocalStorage</li>
+          </ul>
+          <div class="card-links">
+            <a href="https://dsa-sheet-mauve.vercel.app/" aria-label="Live demo">Live ↗</a>
+            <a href="https://github.com/siddhhh21/dsa-sheet99" aria-label="Source code">Code ↗</a>
+          </div>
+        </div>
+      </article>
+
+          <article
+            class="gallery-card"
+            style="--rot: -3deg; --ty: 6px"
+            tabindex="0"
+          >
+            <div class="gallery-thumb">
+              <img
+                src="assets/projects/auto-attendance.png"
+                alt="Auto Attendance landing page placeholder"
+              />
+              <span class="gallery-tag">↗ Automation</span>
+              <span class="gallery-name">Auto Attendance</span>
+            </div>
+            <div class="gallery-detail">
+              <h3>Auto Attendance</h3>
+              <p>
+                A Python-based tool that automates classroom attendance using
+                face recognition, exporting daily reports as spreadsheets for
+                faculty.
+              </p>
+              <ul class="tech-list">
+                <li>Python</li>
+                <li>OpenCV</li>
+                <li>Pandas</li>
+              </ul>
+              <div class="card-links">
+                <!-- <a href="#" aria-label="Live demo">Live ↗</a> -->
+                <a href="https://github.com/siddhhh21/Face-Attendance" aria-label="Source code">Code ↗</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= LINKEDIN POSTS ================= -->
+    <section class="blog" id="blog">
+      <div class="container">
+        <p class="section-eyebrow">03 — On LinkedIn</p>
+        <h2 class="section-title">Recent posts & updates.</h2>
+        <p class="section-sub">
+          A few things I've shared recently — head to LinkedIn for the full
+          feed.
+        </p>
+
+        <div class="blog-grid">
+          <article class="li-card">
+            <div class="li-head">
+              <div class="li-avatar">VS</div>
+              <div>
+                <p class="li-name">Venkata Sai Siddhardha Korada</p>
+                <p class="li-meta">
+                  BTech 3rd Year · St Martin's Engineering College · 2w
+                </p>
+              </div>
+            </div>
+            <p class="li-text">
+              Grateful to have attended CARTOON_CODE: EPISODE ONE organized by
+              Google Developer Groups Hyderabad in collaboration with Vishal
+              Peripherals. 🚀 The workshop provided valuable insights into the
+              intersection of technology, creativity, AI, and content creation.
+              💡 It was a great opportunity to learn from industry
+              professionals, explore innovative tools and workflows, and connect
+              with fellow developers and tech enthusiasts. 🤝 Events like these
+              highlight the importance of continuous learning, collaboration,
+              and community in the ever-evolving tech ecosystem. 🌐 Thank you to
+              the organizers and speakers for hosting such an engaging and
+              informative session. 👏
+            </p>
+
+            <div class="li-stats">
+              <span>👍 19</span>
+              <span>💬 0 comments</span>
+              <span>🔁 0 reposts</span>
+            </div>
+            <a
+              class="li-link"
+              href="https://www.linkedin.com/feed/update/urn:li:activity:7461315953184829440/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >View on LinkedIn ↗</a
+            >
+          </article>
+
+          <article class="li-card">
+            <div class="li-head">
+              <div class="li-avatar">VS</div>
+              <div>
+                <p class="li-name">Venkata Sai Siddhardha Korada</p>
+                <p class="li-meta">
+                  BTech 3rd Year · St Martin's Engineering College · 3mo
+                </p>
+              </div>
+            </div>
+            <p class="li-text">
+              As a student, staying consistent with DSA often feels harder than
+              finding resources. So I built a DSA Sheet + Tracker mainly for my
+              own practice, and then made it available for everyone. It’s simple
+              and topic-wise, focused on solving problems and tracking progress
+              without any extra distractions. No fancy stuff — just a clean way
+              to stay consistent. Sharing it here in case it helps someone else
+              on the same journey 💻 🔗 <a>https://lnkd.in/d-YQQMNm</a>
+            </p>
+            <div class="li-stats">
+              <span>👍 55</span>
+              <span>💬 1 comment</span>
+              <span>🔁 0 reposts</span>
+            </div>
+            <a
+              class="li-link"
+              href="https://www.linkedin.com/feed/update/urn:li:activity:7423380404449210368/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >View on LinkedIn ↗</a
+            >
+          </article>
+
+          <article class="li-card">
+            <div class="li-head">
+              <div class="li-avatar">VS</div>
+              <div>
+                <p class="li-name">Venkata Sai Siddhardha Korada</p>
+                <p class="li-meta">
+                  BTech 3rd Year · St Martin's Engineering College · 6mo
+                </p>
+              </div>
+            </div>
+            <p class="li-text">
+              DAY 0 → DAY 50 → DAY 100 🚀 -Day 0 Just the start. No noise. No
+              expectations. Only one goal — keep moving. -Day 50 Rhythm found.
+              Consistency settled in. Halfway, without realizing how fast it
+              came. -Day 100 Days stacked up quietly. Thinking changed. Focus
+              sharpened. The journey started speaking for itself. No rush. No
+              shortcuts. Just showing up — again and again. From Day 0 to Day
+              100 Still learning. Still building. Still going 🚀
+            </p>
+            <div class="li-stats">
+              <span>👍 22</span>
+              <span>💬 1 comment</span>
+              <span>🔁 0 reposts</span>
+            </div>
+            <a
+              class="li-link"
+              href="https://www.linkedin.com/feed/update/urn:li:activity:7409631391757496320/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >View on LinkedIn ↗</a
+            >
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section class="contact" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-copy">
+          <p class="section-eyebrow">04 — Contact</p>
+          <h2 class="section-title">Let's build<br /><em>something.</em></h2>
+          <p class="section-sub">
+            Open to internships, freelance work, and collaboration on
+            interesting projects.
+          </p>
+
+          <div class="contact-buttons">
+            <a
+              class="contact-btn"
+              href="https://www.linkedin.com/in/venkatasaisiddhardhakorada/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M6.94 5a2 2 0 1 1-4 0 2 2 0 0 1 4 0ZM3.5 8.75h3.9V21H3.5V8.75Zm6.6 0h3.74v1.68h.05c.52-.98 1.79-2.02 3.68-2.02 3.94 0 4.67 2.6 4.67 5.97V21h-3.9v-5.65c0-1.35-.02-3.08-1.88-3.08-1.88 0-2.17 1.47-2.17 2.98V21h-3.9V8.75Z"
+                />
+              </svg>
+              LinkedIn
+            </a>
+            <a
+              class="contact-btn"
+              href="https://github.com/siddhhh21"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M12 2C6.48 2 2 6.58 2 12.19c0 4.49 2.87 8.3 6.84 9.65.5.1.68-.22.68-.49 0-.24-.01-1.05-.01-1.9-2.78.62-3.37-1.21-3.37-1.21-.45-1.18-1.11-1.5-1.11-1.5-.9-.63.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.89 1.55 2.34 1.1 2.91.84.09-.66.35-1.1.63-1.35-2.22-.26-4.55-1.14-4.55-5.06 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.31.1-2.72 0 0 .84-.28 2.75 1.05A9.3 9.3 0 0 1 12 6.84c.85 0 1.71.12 2.51.35 1.91-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.46.1 2.72.64.72 1.03 1.63 1.03 2.75 0 3.93-2.33 4.8-4.56 5.05.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.6.69.49A10.03 10.03 0 0 0 22 12.19C22 6.58 17.52 2 12 2Z"
+                />
+              </svg>
+              GitHub
+            </a>
+            <a
+              class="contact-btn"
+              href="mailto:kvsaisiddhardha2117@gmail.com?subject=Let's%20connect"
+            >
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M3 6.5C3 5.67 3.67 5 4.5 5H19.5C20.33 5 21 5.67 21 6.5V17.5C21 18.33 20.33 19 19.5 19H4.5C3.67 19 3 18.33 3 17.5V6.5Z"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                />
+                <path
+                  d="M4 6.5L12 13L20 6.5"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              Email Me
+            </a>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <label>
+            Name
+            <input type="text" name="name" placeholder="Your name" required />
+          </label>
+          <label>
+            Email
+            <input
+              type="email"
+              name="email"
+              placeholder="you@example.com"
+              required
+            />
+          </label>
+          <label>
+            Message
+            <textarea
+              name="message"
+              rows="5"
+              placeholder="Tell me a bit about the project or opportunity..."
+              required
+            ></textarea>
+          </label>
+          <button type="submit" class="btn btn-solid btn-lg">
+            Send Message
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+              <path
+                d="M5 12H19M19 12L13 6M19 12L13 18"
+                stroke="currentColor"
+                stroke-width="2.4"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </button>
+          <p class="form-note" id="formNote"></p>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <a href="#home" class="footer-wordmark"
+          >SIDDHARDHA<span class="dot">.</span></a
+        >
+        <p>
+          &copy; <span id="year"></span> Venkata Sai Siddhardha Korada. Built
+          for Vercel.
+        </p>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

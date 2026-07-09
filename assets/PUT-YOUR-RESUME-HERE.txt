@@ -1,0 +1,2 @@
+Replace this file with your actual resume, saved as "resume.pdf" in this same
+"assets" folder (keep the exact filename "resume.pdf" so the Resume button keeps working).
