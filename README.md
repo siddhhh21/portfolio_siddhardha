@@ -4,7 +4,7 @@ A single-page portfolio built with plain HTML/CSS/JS — no build step, no frame
 so it deploys to Vercel as-is.
 
 ## What's inside
-```
+``` 
 index.html        → all page content and sections
 css/style.css      → all styling
 js/script.js       → nav toggle, project-card hover/tap, contact form
